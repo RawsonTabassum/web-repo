@@ -39,11 +39,21 @@ h3::after {
 }
 
 .swimming div {
-  border: 1px dashed palevioletred;
   width: 200px;
 }
 
 #ring {
-  position: sticky;
-  left: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+#boy {
+  position: relative;
+  top: 75px;
+  z-index: 5;
+}
+
+#water {
+  position: relative;
+  top: -75px;
 }
