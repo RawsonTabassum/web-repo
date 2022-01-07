@@ -1,7 +1,31 @@
-h1{
-    color: cornflowerblue;
+h1 {
+  color: rgb(255, 255, 255);
+  background-color: darkblue;
+  display: inline;
 }
-.image{
-    height: 250px;
-    width: 250px;
+
+span {
+  background-color: rgb(238, 173, 8);
+  display: block;
+}
+
+div {
+  background-color: lightcoral;
+  width: 300px;
+  height: 250px;
+  padding-top: 20px;
+  margin-top: 50px;
+}
+
+h2 {
+  background-color: mediumpurple;
+}
+
+p {
+  background-color: beige;
+}
+
+.image {
+  height: 250px;
+  width: 250px;
 }

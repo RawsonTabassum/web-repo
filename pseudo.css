@@ -1,0 +1,43 @@
+h1 {
+  color: green;
+}
+
+h1:hover {
+  color: red;
+}
+
+input {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 0 10px;
+  border: 3px solid palevioletred;
+}
+
+.middle-input:focus {
+  border: 3px solid rebeccapurple;
+}
+
+a:visited {
+  color: blue;
+}
+
+/*li:first-child {
+  color: chocolate;
+}
+
+li:last-child {
+  color: cornflowerblue;
+}*/
+
+li:nth-child(2n) {
+  color: darkcyan;
+}
+
+h3::before {
+  content: "Oh this is ";
+}
+
+h3::after {
+  content: " hehe";
+  color: aqua;
+}
